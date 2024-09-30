@@ -467,111 +467,128 @@ h4 {
     margin-top: 10px;
 }
 
-.portfolio-sec .card-portfolio{
+.portfolio-sec .card-portfolio {
     padding: 0;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
-.portfolio-sec .row{
+
+.portfolio-sec .row {
     display: flex;
     justify-content: center;
 }
 
-.contact-sec{
+.contact-sec {
     padding: 90px 0;
 }
-.contact-sec h1{
+
+.contact-sec h1 {
     font-family: Orbitron, sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        color: #000000;
-        margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 30px;
 }
-.contact-sec .icon-contact{
+
+.contact-sec .icon-contact {
     margin-left: 70px;
 }
 
-.contact-sec iframe{
+.contact-sec iframe {
     border-radius: 20px;
 }
 
-.contact-sec .form-contact{
+.contact-sec .form-contact {
     padding: 56px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
-.contact-sec .form-contact h4{
+
+.contact-sec .form-contact h4 {
     text-align: left;
     margin-bottom: 25px;
     font-family: 'General Sans', sans-serif;
-        font-size: 24px;
-        font-weight: 600;
+    font-size: 24px;
+    font-weight: 600;
 }
-.contact-sec .form-contact input{
+
+.contact-sec .form-contact input {
     padding: 20px 36px;
     background-color: #E5E7EB;
     border-radius: 10px;
     margin-top: 20px;
 }
-.contact-sec .form-contact textarea{
+
+.contact-sec .form-contact textarea {
     padding: 20px 36px;
     background-color: #E5E7EB;
     border-radius: 10px;
     margin-top: 20px;
 }
+
 .contact-sec input::placeholder {
     font-family: 'General Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 550;
-        color: rgb(129, 138, 139);
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(129, 138, 139);
 }
+
 .footer-sec input::placeholder {
     font-family: 'General Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 550;
-        color: rgb(129, 138, 139);
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(129, 138, 139);
 }
-.contact-sec textarea{
+
+.contact-sec textarea {
     margin-bottom: 25px;
 }
+
 .contact-sec textarea::placeholder {
     font-family: 'General Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 550;
-        color: rgb(129, 138, 139);
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(129, 138, 139);
 }
 
 .form-check-label {
     margin-top: 0.8rem;
     margin-right: 30px;
 }
-.form-contact .checkbox-form{
+
+.form-contact .checkbox-form {
     margin-left: 15px;
 }
-.form-contact .form-check label{
+
+.form-contact .form-check label {
     font-family: 'General Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 550;
+    font-size: 16px;
+    font-weight: 550;
 }
-.footer-sec{
+
+.footer-sec {
     padding: 80px 112px 40px;
     background-color: #141516;
 }
-.footer-sec h3{
+
+.footer-sec h3 {
     font-family: 'General Sans', sans-serif;
-        font-size: 32px;
-        font-weight: 700;
-        color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
 }
-.footer-sec h5{
+
+.footer-sec h5 {
     font-family: 'General Sans', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
 }
-.footer-sec .input-group input{
+
+.footer-sec .input-group input {
     border-radius: 20px;
 }
-.footer-sec .input-group button{
+
+.footer-sec .input-group button {
     border-radius: 0rem 1.25rem 1.25rem 0;
     height: 38px;
     padding: 0;
@@ -580,28 +597,100 @@ h4 {
     color: #000000;
     font-weight: 600;
     font-family: 'General Sans', sans-serif;
-        font-size: 16px;
+    font-size: 16px;
 }
 
-.footer-sec h6{
+.footer-sec h6 {
     font-family: 'General Sans', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        color: #ffffff;
-        margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 20px;
 }
 
-.footer-sec ul li a{
+.footer-sec ul li a {
     color: #888888;
     font-weight: 600;
-        font-family: 'General Sans', sans-serif;
-        font-size: 16px;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
 }
 
-.footer-sec .copyright{
+.footer-sec .copyright {
     margin-top: 30px;
     font-weight: 600;
-        font-family: 'General Sans', sans-serif;
-        font-size: 16px;
-        color: #888888;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    color: #888888;
+}
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .hero-sec img {
+        padding-top: 20px;
+    }
+    .service-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service-sec h1{
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .service-sec .card{
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .ace-sec h4{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-cc .desc-about h1, h6{
+        text-align: center;
+    }
+    .team-sec h1{
+        text-align: center;
+    }
+    .team-sec .team-card {
+        margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px
+    }
+    .portfolio-sec h1{
+        text-align: center;
+    }
+    .portfolio-sec .card-portfolio{
+        text-align: center;
+    }
+    .contact-sec h1{
+        text-align: center;
+    }
+    .contact-sec iframe{
+        width: 390px;
+        padding-top: 80px;
+    }
+    .footer-sec{
+        padding: 20px;
+        padding-top: 50px;
+    }
+    .footer-sec h6{
+        text-align: start;
+        margin-left: 0;
+    }
+    .footer-sec .input-group{
+        padding-bottom: 30px;
+    }
+    .footer-sec .copyright p{
+        text-align: center;
+    }
+    .footer-sec .ft{
+        display: flex;
+        justify-content: center;
+    }
+
 }
