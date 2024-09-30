@@ -1,0 +1,607 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.master,
+header,
+section,
+footer,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+p {
+    width: 100%;
+    float: left;
+}
+
+figure img {
+    width: 100%;
+}
+
+.ratio {
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.ratio-16 {
+    padding-top: 56.25%;
+}
+
+.ratio-1 {
+    padding-top: 100%;
+}
+
+.ratio-75 {
+    padding-top: 75%;
+}
+
+.ratio-135 {
+    padding-top: 135%;
+}
+
+.ratio img,
+.ratio iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-title {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.btn {
+    min-width: 120px;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #026B33;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    background: none;
+    border: 2px solid #026B33;
+    color: #026B33;
+}
+
+.font-generalsans {
+    font-family: 'General Sans', sans-serif;
+}
+
+.text-xl {
+    font-size: 20px;
+    line-height: 1.75rem;
+}
+
+.text-l {
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-right .btn {
+    padding: 8px 16px;
+    background-color: #153147;
+}
+
+.btn-cta .btn {
+    padding: 8px 16px;
+    background-color: #153147;
+}
+
+.hero-sec .hero-title h1,
+span {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.hero-title span {
+    background-color: #153147;
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+.hero-title h6 {
+    font-family: 'General Sans', sans-serif;
+    margin: 20px 0;
+}
+
+.hero-sec {
+    height: 100vh;
+    padding-top: 110px;
+    background-image: url(/asset/images/bank/cc/backdrop.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+
+.hero-img {
+    height: 80%;
+    border-radius: 10px;
+}
+
+.service-sec {
+    padding: 160px 0;
+    background-color: #153147;
+}
+
+.service-sec h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 21px;
+}
+
+.service-sec .card {
+    padding: 28px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-service {
+    background-color: #EFF1F1;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service-sec .card h5 {
+    padding-top: 15px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+}
+
+.service-sec .card p {
+    margin: 20px 0;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.service-sec .card a {
+    text-decoration-line: underline;
+    font-family: 'General Sans', sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+
+.ace-sec {
+    margin: 80px 0 0;
+}
+
+.ace-sec h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.ace-sec h1,
+h4 {
+    text-align: center;
+}
+
+.ace-sec h1 {
+    margin-bottom: 0;
+}
+
+.ace-sec h4 {
+    font-family: 'General Sans', sans-serif;
+    font-family: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.card-ace-1 {
+    background-color: #EDEAE3;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-ace h3 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card-ace h6 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.card-ace-1 {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 40px;
+    transition: height 0.3s ease, background-color 0.3s ease;
+    overflow: hidden;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-icon {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-icon-bottom {
+    display: none;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: transparent;
+    min-width: 100%;
+    padding: 12px;
+    z-index: 1;
+    top: 100%;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content,
+.card-ace-1:hover .dropdown-content {
+    display: block;
+}
+
+.card-ace-1:hover .dropdown-icon {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.card-ace-1:hover .dropdown-icon-bottom {
+    display: block;
+    transform: translateY(10px);
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dropdown-content ul li {
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.icon-dropdown {
+    fill: #ADB8BA;
+}
+
+.icon-dropdown-1 {
+    fill: #ffffff;
+}
+
+.dropdown-icon {
+    margin: 0;
+}
+
+.card-color-1 {
+    background-color: #ADB8BA;
+}
+
+.about-cc {
+    margin: 130px 0;
+}
+
+.about-img {
+    width: 484px;
+    border-radius: 15px;
+}
+
+.about-cc h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.about-cc .desc-about {
+    text-align: right;
+    margin-right: 90px;
+}
+
+.about-cc h6 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.75;
+    padding-bottom: 50px;
+}
+
+.team-sec {
+    padding-bottom: 100px;
+}
+
+.team-sec h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 21px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
+.team-card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 430px;
+}
+
+.team-card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 0 40px 40px;
+    padding-top: 80px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.team-photo {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-card h4 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.team-card h6 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.team-card p {
+    font-family: 'General Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    font-style: italic;
+}
+
+.portfolio-sec {
+    padding: 90px 0;
+    background-color: #153147;
+}
+
+.portfolio-sec h1 {
+    font-family: Orbitron, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.portfolio-sec img {
+    border-radius: 15px;
+}
+
+.portfolio-sec h5 {
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.portfolio-sec .card-portfolio{
+    padding: 0;
+    margin-top: 30px; 
+}
+.portfolio-sec .row{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-sec{
+    padding: 90px 0;
+}
+.contact-sec h1{
+    font-family: Orbitron, sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #000000;
+        margin-bottom: 30px;
+}
+.contact-sec .icon-contact{
+    margin-left: 70px;
+}
+
+.contact-sec iframe{
+    border-radius: 20px;
+}
+
+.contact-sec .form-contact{
+    padding: 56px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.contact-sec .form-contact h4{
+    text-align: left;
+    margin-bottom: 25px;
+    font-family: 'General Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+}
+.contact-sec .form-contact input{
+    padding: 20px 36px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contact-sec .form-contact textarea{
+    padding: 20px 36px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contact-sec input::placeholder {
+    font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 550;
+        color: rgb(129, 138, 139);
+}
+.footer-sec input::placeholder {
+    font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 550;
+        color: rgb(129, 138, 139);
+}
+.contact-sec textarea{
+    margin-bottom: 25px;
+}
+.contact-sec textarea::placeholder {
+    font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 550;
+        color: rgb(129, 138, 139);
+}
+
+.form-check-label {
+    margin-top: 0.8rem;
+    margin-right: 30px;
+}
+.form-contact .checkbox-form{
+    margin-left: 15px;
+}
+.form-contact .form-check label{
+    font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 550;
+}
+.footer-sec{
+    padding: 80px 112px 40px;
+    background-color: #141516;
+}
+.footer-sec h3{
+    font-family: 'General Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff;
+}
+.footer-sec h5{
+    font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+}
+.footer-sec .input-group input{
+    border-radius: 20px;
+}
+.footer-sec .input-group button{
+    border-radius: 0rem 1.25rem 1.25rem 0;
+    height: 38px;
+    padding: 0;
+    background-color: #EAB308;
+    border: 0;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+}
+
+.footer-sec h6{
+    font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-left: 20px;
+}
+
+.footer-sec ul li a{
+    color: #888888;
+    font-weight: 600;
+        font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+}
+
+.footer-sec .copyright{
+    margin-top: 30px;
+    font-weight: 600;
+        font-family: 'General Sans', sans-serif;
+        font-size: 16px;
+        color: #888888;
+}
